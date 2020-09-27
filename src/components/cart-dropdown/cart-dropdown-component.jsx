@@ -21,7 +21,6 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
                 ))
             ) : (<span > cart is empty </span>
                 )}
-
         </div>
         {cartItems.length ? (
         <CustomButton onClick = {() => 
